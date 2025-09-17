@@ -8,13 +8,3 @@ Three hiring-ready deliverables:
 > Privacy-first. Synthetic data for portfolio purposes. Not medical advice.
 
 ---
-
-## Quick start (Windows, E:)
-```cmd
-cd /d E:\projects\medication_adherence_rnd_capstone
-venv\Scripts\activate
-python -m pip install --upgrade pip
-pip install pandas numpy scikit-learn matplotlib streamlit
-python src\create_data.py
-python src\analysis.py
-python -m streamlit run app\app.py --server.port 8502
