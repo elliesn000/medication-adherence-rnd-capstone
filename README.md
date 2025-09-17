@@ -18,23 +18,3 @@ pip install pandas numpy scikit-learn matplotlib streamlit
 python src\create_data.py
 python src\analysis.py
 python -m streamlit run app\app.py --server.port 8502
-## Structure
-```
-docs/      PRD_onepager.pdf
-data/      app_usage_survey.csv, app_usage_with_clusters.csv
-report/    *.png charts, cluster_summary.csv (+ dashboard screenshots)
-src/       create_data.py, analysis.py
-app/       app.py (Streamlit)
-```
-## Key outputs
-- **PRD:** docs/PRD_onepager.pdf
-- **Reports:**
-  - report/top_features.png
-  - report/retention_by_age.png
-  - report/adoption_vs_sessions_scatter.png
-  - report/cluster_sessions_retention.png
-  - report/cluster_summary.csv
-
-## Screenshots
-![Dashboard — Home](report/dashboard_home.png)
-![Dashboard — What-if](report/dashboard_whatif.png)
